@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FLEX</title>
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css"/>
+</head>
+<body>
+	<nav>
+		
+		<a href="index.html">home</a>
+		<a href="form.html">form</a>
+		<a href="table.html">table</a>/
+		<a href="table2.html"> table2</a>
+		<a href="contact.html">contact us form</a>
+		<a href="flex.html"> flex</a>
+	</nav>
+	<h2>css flex property</h2>
+	<div id="geets">
+		<div class="gfg1">geetforgeets</div>
+		<div class="gfg1">lite contect</div>
+		<div class="gfg1">special contect</div>
+		
+	</div>
+	<div class="container">
+    <div id="one" class="child">one</div>
+    <div id="two" class="child">two</div>
+    <div id="three" class="child">three</div>
+    <div id="four" class="child">four</div>
+    <div id="five" class="child">five</div>
+    <div id="six" class="child">six</div>
+		
+
+	</div>
+	<nav class="container">
+		<div class="box">one</div>
+		<div class="box">two</div>
+		<div class="box">three</div>
+		<div class="box">four</div>
+	</nav>
+		
+	<style type="text/css">
+	 .container{
+	 	margin: auto;
+	 	background: #0a0226;
+	 	height: 450px;
+	 	width: 450px;
+	 	display: flex;
+	 	flex-direction: row-reverse;
+	 	justify-content: flex-start;
+	 	text-align: center;
+	 	text-transform: uppercase;
+	 	flex-wrap: wrap;
+
+	 }
+	 .child{
+	 	margin: 20px;
+	 	font-family: montserrat;
+	 	line-height:normal;
+	 	font-size: large;
+	 	line-height: all; 
+	 	border-radius: 10px;
+	 	text-align:center;
+	 	color: #ccc;
+	 	padding: 20px;
+	 	
+	 }
+	 #one{
+	 	background: #e8d922;
+	 	height: 9%;
+	 	width: 9%;
+	 	text-indent:initial;  
+
+	 }
+	 #two{
+	 	background: #62afc3;
+	 	height: 9%;
+	 	width: 9%;
+	 }
+	  #three{
+	 	background: #d8207a;
+	 	height: 9%;
+	 	width: 9%
+	 }
+	  #four{
+	 	background: #e8d922;
+	 	height: 9%;
+	 	width: 9%;
+	 }
+	  #five{
+	 	background: #62afc3;
+	 	height: 9%;
+	 	width: 9%
+	 }
+	  #six{
+	 	background: #d8207a;
+	 	height: 9%;
+	 	width: 9%
+	 }
+	 nav.container{
+	 	height: 450px;
+	 	width: 450px;
+	 	background: blue;
+	 	display: flex;
+	 	flex-direction: row;
+	 	justify-content:space-around;
+	 	flex-wrap: wrap;
+	 	text-transform:lowercase;  
+	 }
+	 .box{
+	 	width: 100px;
+	 	height: 100px;
+	 	background: yellow;
+	 	box-sizing: border-box;
+	 	font-size: 50px;
+	 	border-radius: 10px;
+	 	text-align: center;
+	 	color: red;
+	 	padding: 10px; 
+	 	
+	 }
+	 #geets{
+	 	width: 300px;
+	 	height: 200px;
+	 	border:1px solid black;
+	 	display: flex;
+
+	 }
+	 #geets div{
+	 	flex: 1;
+	 }
+	 .gfg1{
+	 	background-color: green;
+	 }
+	  .gfg2{
+	 	background-color: lightgreen;
+	 }
+	  .gfg3{
+	 	background-color: green;
+	 }
+	</style>
+
+</body>
+</html>
